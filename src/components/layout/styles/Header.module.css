@@ -1,0 +1,15 @@
+.header {
+  background-color: #ddd7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 4.6rem;
+  backdrop-filter: blur(5px);
+  display: flex;
+  box-shadow: 4px 4px 8px #0008;
+}
+
+.logo {
+  margin: 0.4rem;
+}

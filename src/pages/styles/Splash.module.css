@@ -1,0 +1,27 @@
+.splash {
+  background-color: hsl(249, 61%, 75%);
+  background-image: url(../../assets/images/desk.jpg);
+  background-size: cover;
+  background-blend-mode: luminosity;
+  width: 100vw;
+  height: calc(100vh - 4.6rem);
+  padding-block-start: 4.6rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.splash h1 {
+  font-size: 5rem;
+  color: #000;
+  margin-block: 1rem;
+}
+
+.splash > div {
+  width: 50%;
+}
+
+.splash > div > div {
+  margin-inline-start: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

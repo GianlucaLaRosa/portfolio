@@ -1,0 +1,19 @@
+.card {
+  margin: 3rem;
+  padding: 2.6rem;
+  background-color: #fff8;
+  backdrop-filter: blur(5px);
+  border-radius: 40px;
+  box-shadow: 4px 4px 8px #0008;
+}
+.card > p {
+  line-height: 200%;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.card > p::selection,
+.card > h1::selection {
+  color: hsl(249, 100%, 75%);
+  background-color: hsl(69, 61%, 75%);
+}
