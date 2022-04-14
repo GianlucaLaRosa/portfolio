@@ -1,0 +1,37 @@
+.container {
+  width: 100vw;
+  height: calc(100vh - 4.6rem);
+  padding-block-start: 4.6rem;
+  background-color: hsl(69, 61%, 75%);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.about > div {
+  margin-inline-end: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.container > div {
+  width: 50%;
+}
+
+.about p::selection,
+.about h1::selection {
+  color: hsl(69, 61%, 75%);
+  background-color: hsl(120, 70%, 29%);
+}
+
+.about_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

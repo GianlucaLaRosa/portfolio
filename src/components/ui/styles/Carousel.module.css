@@ -1,0 +1,41 @@
+.carousel {
+  width: 100%;
+  display: flex;
+  background-image: linear-gradient(
+    to right,
+    rgba(218, 230, 152, 1),
+    rgba(218, 230, 152, 0),
+    rgba(218, 230, 152, 0),
+    rgba(218, 230, 152, 1)
+  );
+}
+
+.carousel > div {
+  width: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem;
+}
+
+.react_icons {
+  color: hsl(120, 70%, 29%);
+  width: 7rem;
+  height: 7rem;
+}
+
+.carousel p {
+  color: hsl(120, 70%, 29%);
+  font-size: 1rem;
+}
+
+.transparency {
+  width: 100rem;
+  height: 100%;
+  background-color: #f006;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: -100;
+  right: 0;
+}

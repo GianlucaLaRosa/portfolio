@@ -1,13 +1,13 @@
-import classes from "./styles/Splash.module.css";
+import classes from "./styles/About.module.css";
 import Card from "../components/ui/Card";
+import Carousel from "../components/ui/Carousel";
 
-function Splash() {
+function About() {
   return (
-    <div className={classes.splash}>
-      <div></div>
-      <div className={classes.container}>
+    <div className={classes.container}>
+      <div className={classes.about}>
         <Card>
-          <h1>About me</h1>
+          <h1>About</h1>
           <p>
             Dai tempi del liceo nutro una passione per il web developing. La
             curiosità è il mio motore primo: amo approfondire ciò che non
@@ -22,8 +22,11 @@ function Splash() {
           </p>
         </Card>
       </div>
+      <div className={classes.about_icons}>
+        <Carousel />
+      </div>
     </div>
   );
 }
 
-export default Splash;
+export default About;

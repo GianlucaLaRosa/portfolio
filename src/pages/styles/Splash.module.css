@@ -10,17 +10,16 @@
   justify-content: flex-end;
 }
 
-.splash h1 {
-  font-size: 5rem;
-  color: #000;
-  margin-block: 1rem;
+.container {
+  display: flex;
+  align-items: center;
 }
 
 .splash > div {
   width: 50%;
 }
 
-.splash > div > div {
+.container > div {
   margin-inline-start: 0;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
