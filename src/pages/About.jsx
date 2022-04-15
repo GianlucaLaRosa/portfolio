@@ -1,6 +1,7 @@
 import classes from "./styles/About.module.css";
 import Card from "../components/ui/Card";
 import Carousel from "../components/ui/Carousel";
+import transp from "../assets/images/transp.png";
 
 function About() {
   return (
@@ -23,6 +24,7 @@ function About() {
         </Card>
       </div>
       <div className={classes.about_icons}>
+        <img src={transp} alt="" />
         <Carousel />
       </div>
     </div>

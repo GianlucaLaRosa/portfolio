@@ -12,7 +12,7 @@ function Carousel() {
         <IconContext.Provider value={{ className: classes.react_icons }}>
           <div className={classes.cook}>
             <GiCook />
-            <p>Cucina</p>
+            <p>Cucina 1</p>
           </div>
           <div className={classes.chess}>
             <FaChessPawn />

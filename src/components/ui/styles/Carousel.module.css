@@ -2,7 +2,6 @@
   z-index: 0;
   width: 100%;
   display: flex;
-  animation: carousel 20s linear infinite backwards;
 }
 
 .carousel > div {
@@ -11,20 +10,7 @@
   flex-direction: column;
   align-items: center;
   margin: 4rem;
-}
-
-.cook,
-.chess,
-.construct,
-.arduino,
-.theater,
-.beer,
-.globe,
-.cooks,
-.chesss,
-.constructs,
-.arduinos {
-  animation: vanish 20s linear infinite forwards;
+  animation: carousel 20s linear infinite backwards;
 }
 
 .react_icons {
@@ -38,49 +24,6 @@
   font-size: 1rem;
 }
 
-.cook {
-  animation-delay: 2s;
-}
-
-.chess {
-  animation-delay: 4s;
-}
-
-.construct {
-  animation-delay: 6s;
-}
-
-.arduino {
-  animation-delay: 8s;
-}
-
-.theater {
-  animation-delay: 10s;
-}
-
-.beer {
-  animation-delay: 12s;
-}
-
-.globe {
-  animation-delay: 14s;
-}
-.cooks {
-  animation-delay: 2s;
-}
-
-.chesss {
-  animation-delay: 4s;
-}
-
-.constructs {
-  animation-delay: 6s;
-}
-
-.arduinos {
-  animation-delay: 8s;
-}
-
 @keyframes carousel {
   from {
     position: relative;
@@ -89,23 +32,5 @@
   to {
     position: relative;
     left: -98rem;
-  }
-}
-
-@keyframes vanish {
-  from {
-    opacity: 1;
-  }
-
-  15% {
-    opacity: 0;
-  }
-
-  65% {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
   }
 }
