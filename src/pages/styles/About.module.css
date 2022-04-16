@@ -36,6 +36,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  left: 12px;
 }
 
 .about_icons img {
