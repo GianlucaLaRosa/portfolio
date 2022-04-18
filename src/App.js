@@ -1,14 +1,12 @@
 import "./App.css";
 import Header from "./components/layout/Header";
-import Splash from "./pages/Splash";
-import About from "./pages/About";
+import Main from "./pages/Main";
 
 function App() {
   return (
     <>
       <Header />
-      <Splash />
-      <About />
+      <Main />
     </>
   );
 }
