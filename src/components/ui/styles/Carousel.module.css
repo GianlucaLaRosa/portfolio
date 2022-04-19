@@ -14,14 +14,15 @@
 }
 
 .react_icons {
-  color: hsl(120, 70%, 29%);
+  color: hsl(0, 0%, 0%);
   width: 7rem;
-  height: 7rem;
+  height: 5rem;
 }
 
 .carousel p {
-  color: hsl(120, 70%, 29%);
+  color: hsl(0, 0%, 0%);
   font-size: 1rem;
+  text-align: center;
 }
 
 @keyframes carousel {

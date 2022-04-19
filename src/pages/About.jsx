@@ -10,13 +10,15 @@ function About() {
         <Card>
           <h1>About me</h1>
           <p>
-            Dai tempi del liceo nutro un interesse per il{" "}
+            Dai tempi del liceo nutro un forte interesse per il{" "}
             <strong>web developing</strong>.<br />
             Ho lavorato in ambienti molto diversi, seguendo sempre le mie
-            passioni. Un giorno mi &egrave; stato chiesto di scrivere del
-            codice, in quel momento ho capito che dovevo tornare al web. <br />
-            Senza dimenticare gli altri interessi, che mi permettono di sfogare
-            il mio estro.
+            passioni. <br />
+            Un giorno mi &egrave; stato chiesto di scrivere del codice e da quel
+            momento ho capito che dovevo tornare allo{" "}
+            <strong>sviluppo web</strong>. <br />
+            Senza per&ograve; dimenticare gli altri interessi, che mi permettono
+            di sfogare il mio estro.
           </p>
         </Card>
       </div>
