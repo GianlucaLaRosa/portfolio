@@ -14,9 +14,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Kalam", cursive;
-  font-size: 5rem;
   color: #000;
+}
+
+h1 {
+  font-size: 5rem;
   margin-block: 1rem;
+  line-height: 5rem;
+  letter-spacing: -0.2rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 0;
 }

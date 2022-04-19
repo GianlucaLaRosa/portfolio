@@ -1,0 +1,135 @@
+.container {
+  width: 100vw;
+  height: calc(100vh - 4.6rem);
+  padding-block-start: 4.6rem;
+  background-color: hsl(199, 63%, 62%);
+  background-image: url(../../assets/images/trieste.jpg);
+
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  scroll-snap-align: center;
+}
+
+.container > div {
+  width: 30%;
+}
+
+.header {
+  text-align: center;
+}
+
+.row,
+.row_sec,
+.row_third {
+  padding-block-start: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row_sec {
+  justify-content: space-around;
+}
+
+.row_third {
+  justify-content: space-evenly;
+}
+
+.row > span,
+.row_sec > span,
+.row_third > span {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row p,
+.row_sec p,
+.row_third p {
+  margin: 0;
+  padding-block-start: 1.1rem;
+  color: black;
+  opacity: 0;
+}
+
+.react_icons {
+  width: 3rem;
+  height: 3rem;
+}
+
+.react_icons:hover {
+  animation: scale 1s forwards;
+}
+
+.git:hover {
+  color: #f05133;
+}
+
+.git:hover + p {
+  animation: scale 1s forwards;
+}
+
+.html:hover {
+  color: #e44d26;
+}
+.html:hover + p {
+  animation: scale 1s forwards;
+}
+
+.css:hover {
+  color: #1572b6;
+}
+
+.css:hover + p {
+  animation: scale 1s forwards;
+}
+
+.bs:hover {
+  color: #533979;
+}
+
+.bs:hover + p {
+  animation: scale 1s forwards;
+}
+
+.js:hover {
+  color: #f7e018;
+}
+
+.js:hover + p {
+  animation: scale 1s forwards;
+}
+
+.react:hover {
+  color: #00cdf2;
+}
+
+.react:hover + p {
+  animation: scale 1s forwards;
+}
+
+.figma:hover {
+  color: #000;
+}
+
+.figma:hover + p {
+  animation: scale 1s forwards;
+}
+
+.next:hover + p {
+  animation: scale 1s forwards;
+}
+.ts:hover {
+  color: #7299cb;
+}
+
+.ts:hover + p {
+  animation: scale 1s forwards;
+}
+
+@keyframes scale {
+  to {
+    transform: scale(2);
+    opacity: 1;
+  }
+}

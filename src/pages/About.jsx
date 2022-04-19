@@ -8,18 +8,15 @@ function About() {
     <div className={classes.container}>
       <div className={classes.about}>
         <Card>
-          <h1>About</h1>
+          <h1>About me</h1>
           <p>
-            Dai tempi del liceo nutro una passione per il web developing. La
-            curiosità è il mio motore primo: amo approfondire ciò che non
-            conosco bene e studiare quello che ancora non so. Ritengo di avere
-            buone capacità di problem solving. Le mie esperienze lavorative
-            precedenti mi hanno permesso di sviluppare abilità di team working
-            nonché di comunicazione.Sono in cerca di un'azienda creativa e con
-            uno spirito giovane, dove si possa crescere come singoli e come
-            team. Ciò che spero di trovare in voi è un ambiente sano in cui
-            poter dare il mio apporto per creare prodotti innovativi, che
-            possano migliorare la vita delle persone.
+            Dai tempi del liceo nutro un interesse per il{" "}
+            <strong>web developing</strong>.<br />
+            Ho lavorato in ambienti molto diversi, seguendo sempre le mie
+            passioni. Un giorno mi &egrave; stato chiesto di scrivere del
+            codice, in quel momento ho capito che dovevo tornare al web. <br />
+            Senza dimenticare gli altri interessi, che mi permettono di sfogare
+            il mio estro.
           </p>
         </Card>
       </div>
