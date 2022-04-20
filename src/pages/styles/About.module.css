@@ -25,11 +25,11 @@
   width: 50%;
 }
 
-.about p::selection,
+/* .about p::selection,
 .about h1::selection {
   color: hsl(69, 61%, 75%);
   background-color: hsl(120, 70%, 29%);
-}
+} */
 
 .about_icons {
   overflow: hidden;
