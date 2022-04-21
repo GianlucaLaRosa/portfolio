@@ -6,6 +6,8 @@ import transp from "../assets/images/transp.png";
 function About() {
   return (
     <div className={classes.container}>
+      <p className={classes.open}>{"{"}</p>
+      <p className={classes.close}>{"}"}</p>
       <div className={classes.about}>
         <Card>
           <h1>About me</h1>
@@ -17,8 +19,8 @@ function About() {
             Un giorno mi &egrave; stato chiesto di scrivere del codice e da quel
             momento ho capito che dovevo tornare allo{" "}
             <strong>sviluppo web</strong>. <br />
-            Senza per&ograve; dimenticare gli altri interessi, che mi permettono
-            di sfogare il mio estro.
+            Senza mai dimenticare gli altri interessi, che aiutano a sfogare il
+            mio estro.
           </p>
         </Card>
       </div>

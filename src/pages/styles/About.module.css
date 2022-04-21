@@ -1,8 +1,8 @@
 .container {
-  width: 100vw;
+  width: 100%;
   height: calc(100vh - 4.6rem);
   padding-block-start: 4.6rem;
-  background-color: hsl(69, 61%, 75%);
+  background-color: hsl(223, 54%, 78%);
   display: flex;
   justify-content: flex-start;
   scroll-snap-align: center;
@@ -48,4 +48,22 @@
   left: 0;
   z-index: 100;
   overflow: hidden;
+}
+
+.open,
+.close {
+  position: absolute;
+  font-size: 16rem;
+  transform: rotate(30deg);
+  top: calc(100vh - 16rem);
+}
+
+.open {
+  left: 3rem;
+}
+
+.close {
+  z-index: 200;
+  top: calc(100vh + 16rem);
+  right: 3rem;
 }

@@ -8,6 +8,7 @@
   backdrop-filter: blur(5px);
   display: flex;
   box-shadow: 4px 4px 8px #0008;
+  z-index: 120;
 }
 
 .logo {

@@ -3,7 +3,7 @@
   background-image: url(../../assets/images/desk.jpg);
   background-size: cover;
   background-blend-mode: luminosity;
-  width: 100vw;
+  width: 100%;
   height: calc(100vh - 4.6rem);
   padding-block-start: 4.6rem;
   display: flex;
