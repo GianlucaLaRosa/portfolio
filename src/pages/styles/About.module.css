@@ -6,6 +6,7 @@
   display: flex;
   justify-content: flex-start;
   scroll-snap-align: center;
+  position: relative;
 }
 
 .about {
@@ -22,7 +23,7 @@
 }
 
 .container > div {
-  width: 50%;
+  width: 80%;
 }
 
 /* .about p::selection,
@@ -52,18 +53,41 @@
 
 .open,
 .close {
+  line-height: 0;
+  margin: 0;
   position: absolute;
   font-size: 16rem;
   transform: rotate(30deg);
-  top: calc(100vh - 16rem);
 }
 
 .open {
-  left: 3rem;
+  top: 12rem;
+  left: 1rem;
 }
 
 .close {
   z-index: 200;
-  top: calc(100vh + 16rem);
-  right: 3rem;
+  bottom: 8rem;
+  right: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    scroll-snap-align: start;
+    padding-block-end: 1rem;
+  }
+
+  .about > div {
+    border-radius: 40px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .about_icons {
+    display: none;
+  }
 }

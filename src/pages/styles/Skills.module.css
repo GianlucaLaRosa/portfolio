@@ -132,3 +132,19 @@
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    height: max-content;
+    padding-block-end: 1rem;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+  }
+
+  .container > div {
+    width: 80%;
+  }
+}

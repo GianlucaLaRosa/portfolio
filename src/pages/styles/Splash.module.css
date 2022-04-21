@@ -1,4 +1,4 @@
-.splash {
+.container {
   background-color: hsl(249, 61%, 75%);
   background-image: url(../../assets/images/desk.jpg);
   background-size: cover;
@@ -11,17 +11,48 @@
   scroll-snap-align: center;
 }
 
-.container {
+.splash {
   display: flex;
   align-items: center;
 }
 
-.splash > div {
+.container > div {
   width: 50%;
 }
 
-.container > div {
+.splash > div {
   margin-inline-start: 0;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+@media only screen and (max-width: 576) {
+  .container > div {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .void {
+    display: none;
+  }
+
+  .container {
+    height: max-content;
+    padding-block-end: 1rem;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+  }
+
+  .container > div {
+    width: 80%;
+  }
+
+  .splash > div {
+    border-radius: 40px;
+    margin: 0;
+  }
 }

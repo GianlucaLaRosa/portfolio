@@ -69,3 +69,14 @@ a:link {
 .copy p {
   font-size: smaller;
 }
+
+@media only screen and (max-width: 768px) {
+  .social {
+    flex-direction: column;
+  }
+
+  .social a {
+    border: none;
+    margin-block: 0.6rem;
+  }
+}
