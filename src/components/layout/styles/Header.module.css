@@ -20,3 +20,32 @@
 .logo {
   margin: 1rem;
 }
+
+.links {
+  width: 14rem;
+  padding-inline: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links a {
+  color: #000;
+  font-size: 1.4rem;
+  text-shadow: 0 0 5px #fff7;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .cv {
+    display: none;
+  }
+
+  .links {
+    width: min-content;
+    padding: 0;
+  }
+}

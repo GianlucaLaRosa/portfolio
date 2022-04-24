@@ -22,6 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.7s;
 }
 
 .container span:hover {
@@ -78,5 +79,11 @@ a:link {
   .social a {
     border: none;
     margin-block: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    height: calc(100vh - 8rem);
   }
 }

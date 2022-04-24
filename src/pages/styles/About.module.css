@@ -7,6 +7,7 @@
   justify-content: flex-start;
   scroll-snap-align: center;
   position: relative;
+  overflow: hidden;
 }
 
 .about {
@@ -78,7 +79,8 @@
     align-items: center;
     height: max-content;
     scroll-snap-align: start;
-    padding-block-end: 1rem;
+    padding-block-start: 6rem;
+    padding-block-end: 3rem;
   }
 
   .about > div {

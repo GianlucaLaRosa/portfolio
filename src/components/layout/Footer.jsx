@@ -10,7 +10,7 @@ function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="links">
       <div>
         <a
           href="https://it.wikipedia.org/wiki/Trieste"

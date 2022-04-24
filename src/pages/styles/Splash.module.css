@@ -38,17 +38,19 @@
   }
 
   .container {
-    height: max-content;
     padding-block-end: 1rem;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    padding-block-start: 6rem;
+    padding-block-end: 3rem;
   }
 
   .container > div {
     width: 80%;
+    text-align: center;
   }
 
   .splash > div {
