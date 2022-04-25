@@ -10,7 +10,7 @@ function Header() {
       <div className={classes.links}>
         <p className={classes.cv}>
           <a href="../../assets/cv/gianluca_larosa_privcvita.pdf" download>
-            download CV
+            Download CV
           </a>
         </p>
         <p>
