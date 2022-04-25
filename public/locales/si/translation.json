@@ -1,0 +1,19 @@
+{
+  "header": {
+    "download": "Prenesi CV",
+    "contacts": "Stiki"
+  },
+  "pages": {
+    "splash": "SLO - È qui che avviene la <1>magia</1>. <br/>L'angolo dove soddisfo la mia passione,</br> la scrivania dalla quale tutto ha inizio.",
+    "about": "SLO - Dai tempi del liceo nutro un forte interesse per il <2>web developing</2>. <br />Ho lavorato in ambienti molto diversi, seguendo sempre le mie passioni. <br />Un giorno mi è stato chiesto di scrivere del codice e da quel momento ho capito che dovevo tornare allo <2>sviluppo web</2>.<br />Senza mai dimenticare gli altri interessi, che aiutano a sfogare il mio estro."
+  },
+  "icons": {
+    "electronics": "Elektronica",
+    "cooking": "Kuhati",
+    "languages": "Jezikov",
+    "theater": "Gledališče",
+    "games": "Namizna igra",
+    "beer": "Birra artigianale",
+    "woodw": "Mizarstvo"
+  }
+}

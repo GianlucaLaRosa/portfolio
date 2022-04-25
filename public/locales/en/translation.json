@@ -1,0 +1,19 @@
+{
+  "header": {
+    "download": "Download CV",
+    "contacts": "Contacts"
+  },
+  "pages": {
+    "splash": "Here happens the <1>magic</1>. <br/> The corner where I please my hobby, <br/>the desk where everithing begins. ",
+    "about": " ENG - Dai tempi del liceo nutro un forte interesse per il <2>web developing</2>. <br />Ho lavorato in ambienti molto diversi, seguendo sempre le mie passioni. <br />Un giorno mi è stato chiesto di scrivere del codice e da quel momento ho capito che dovevo tornare allo <2>sviluppo web</2>.<br />Senza mai dimenticare gli altri interessi, che aiutano a sfogare il mio estro."
+  },
+  "icons": {
+    "electronics": "Electronics",
+    "cooking": "Cooking",
+    "languages": "Languages",
+    "theater": "Theatre",
+    "games": "Board games",
+    "beer": "Craft beer",
+    "woodw": "Woodworking"
+  }
+}

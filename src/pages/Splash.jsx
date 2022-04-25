@@ -1,5 +1,6 @@
 import classes from "./styles/Splash.module.css";
 import Card from "../components/ui/Card";
+import { Trans } from "react-i18next";
 
 function Splash() {
   return (
@@ -9,9 +10,11 @@ function Splash() {
         <Card>
           <h1>Artisan Front End Developer</h1>
           <p>
-            &Egrave; qui che avviene la magia. <br />
-            L'angolo dove soddisfo la mia passione, <br /> la scrivania dalla
-            quale tutto ha inizio.
+            <Trans i18nKey="pages.splash">
+              "È qui che avviene la <strong>magia</strong>. <br /> L'angolo dove
+              soddisfo la mia passione, <br />
+              la scrivania dalla quale tutto ha inizio.",
+            </Trans>
           </p>
         </Card>
       </div>

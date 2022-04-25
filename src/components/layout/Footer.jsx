@@ -5,8 +5,10 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
 import { ImFilePdf } from "react-icons/im";
 import { IoNewspaperOutline } from "react-icons/io5";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t } = useTranslation();
   const year = new Date().getFullYear();
 
   return (
@@ -50,8 +52,8 @@ function Footer() {
       <div>
         <a href="../../assets/cv/gianluca_larosa_privcvita.pdf" download>
           <span>
-            <IoNewspaperOutline className={classes.logo} /> &nbsp; Download
-            CV&nbsp;
+            <IoNewspaperOutline className={classes.logo} /> &nbsp;{" "}
+            {t("header.download")}&nbsp;
             <ImFilePdf className={classes.pdf} />
           </span>
         </a>
