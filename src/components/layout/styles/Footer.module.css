@@ -86,4 +86,7 @@ a:link {
   .container {
     height: calc(100vh - 8rem);
   }
+  .copy p {
+    padding-top: 3rem;
+  }
 }

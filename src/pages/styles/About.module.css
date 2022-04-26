@@ -27,12 +27,6 @@
   width: 80%;
 }
 
-/* .about p::selection,
-.about h1::selection {
-  color: hsl(69, 61%, 75%);
-  background-color: hsl(120, 70%, 29%);
-} */
-
 .about_icons {
   overflow: hidden;
   display: flex;
@@ -72,7 +66,7 @@
   right: 1rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   .container {
     flex-direction: column;
     justify-content: center;

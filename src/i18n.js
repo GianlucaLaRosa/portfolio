@@ -26,10 +26,6 @@ const options = {
   caches: ["localStorage"],
   excludeCacheFor: ["cimode"], // languages to not persist (cookie, localStorage)
 
-  // optional expire and domain for set cookie
-  cookieMinutes: 1,
-  cookieDomain: "none",
-
   // optional htmlTag with lang attribute, the default is:
   htmlTag: document.documentElement,
 };
@@ -39,7 +35,7 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    debug: true,
+    debug: false,
     fallbackLng: "en",
     whitelist: ["it", "en", "si"],
     detection: options,

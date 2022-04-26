@@ -3,16 +3,9 @@ import logo from "../../assets/svgs/logo.svg";
 import { useTranslation } from "react-i18next";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { It, Gb, Si } from "react-flags-select";
-import { useEffect } from "react";
 
 function Header() {
   const { t, i18n } = useTranslation();
-
-  useEffect(() => {
-    if (localStorage.getItem("i18nextLng")?.length > 2) {
-      i18n.changeLanguage("it");
-    }
-  }, [i18n]);
 
   function languageHandler(lang) {
     i18n.changeLanguage(lang);

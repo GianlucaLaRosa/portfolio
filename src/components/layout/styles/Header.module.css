@@ -25,17 +25,13 @@
   align-items: center;
 }
 
-.header > nav {
-  margin-right: 1rem;
-}
-
 .logo {
   margin: 1rem;
 }
 
 .links {
   width: 18rem;
-  padding-inline: 3rem;
+  padding-inline: 1rem;
 }
 
 .links a {
