@@ -4,11 +4,15 @@ import { IconContext } from "react-icons";
 import { DiGit, DiHtml5, DiCss3, DiJavascript1 } from "react-icons/di";
 import { FaBootstrap, FaReact, FaFigma } from "react-icons/fa";
 import { SiNextdotjs, SiTypescript } from "react-icons/si";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 function Skills() {
   return (
     <div className={classes.container}>
-      <Card>
+      <Card aos="zoom-in">
         <IconContext.Provider value={{ className: classes.react_icons }}>
           <h1 className={classes.header}>Skills</h1>{" "}
           <div className={classes.row}>
