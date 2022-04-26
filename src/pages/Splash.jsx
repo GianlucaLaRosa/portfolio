@@ -11,9 +11,9 @@ function Splash() {
           <h1>Artisan Front End Developer</h1>
           <p>
             <Trans i18nKey="pages.splash">
-              "È qui che avviene la <strong>magia</strong>. <br /> L'angolo dove
+              È qui che avviene la <strong>magia</strong>. <br /> L'angolo dove
               soddisfo la mia passione, <br />
-              la scrivania dalla quale tutto ha inizio.",
+              la scrivania dalla quale tutto ha inizio.
             </Trans>
           </p>
         </Card>
