@@ -2,7 +2,14 @@ import classes from "./styles/About.module.css";
 import Card from "../components/ui/Card";
 import Carousel from "../components/ui/Carousel";
 import transp from "../assets/images/transp.png";
+<<<<<<< HEAD
 import { Trans } from "react-i18next";
+=======
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+>>>>>>> feature/aos
 
 function About() {
   return (
@@ -10,7 +17,7 @@ function About() {
       <p className={classes.open}>{"{"}</p>
       <p className={classes.close}>{"}"}</p>
       <div className={classes.about}>
-        <Card>
+        <Card aos="fade-right">
           <h1>About me</h1>
           <p>
             <Trans i18nKey="pages.about">
