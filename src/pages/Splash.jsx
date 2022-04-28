@@ -1,13 +1,10 @@
 import classes from "./styles/Splash.module.css";
 import Card from "../components/ui/Card";
-<<<<<<< HEAD
 import { Trans } from "react-i18next";
-=======
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 AOS.init({ disable: "phone", mirror: true });
->>>>>>> feature/aos
 
 function Splash() {
   return (
